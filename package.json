@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buenojc/foodfy_back-end.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buenojc/foodfy_back-end/issues"
+  },
+  "homepage": "https://github.com/buenojc/foodfy_back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
