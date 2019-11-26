@@ -8,7 +8,7 @@ server.listen(5000, function() {
 
 //Server configuration
 
-server.set("view engine", "html");
+server.set("view engine", "njk");
 server.use(express.static("../front-end/public"));
 
 nunjucks.configure("../front-end/views", {
