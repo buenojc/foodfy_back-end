@@ -22,7 +22,7 @@ module.exports = [
       "Retire do congelador, frite ou asse e está pronto."
     ],
     information:
-      "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres! \n\n Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
+      "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres! <br> <br> Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
   },
   {
     image:
@@ -163,6 +163,32 @@ module.exports = [
       "açúcar de confeiteiro e corte em quadrados."
     ],
     information: ""
+  },
+  {
+    image:
+      "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/macarrao.png",
+    title: "Espaguete ao alho",
+    author: "Júlia Kinoto",
+    ingredients: [
+      "1 pacote de macarrão 500 g (tipo do macarrão a gosto)",
+      "1 saquinho de alho granulado",
+      "1/2 tablete de manteiga (não use margarina)",
+      "1 colher (sopa) de azeite extra virgem",
+      "ervas (manjericão, orégano, salsa, cebolinha, tomilho, a gosto)",
+      "sal",
+      "1 dente de alho",
+      "gengibre em pó a gosto",
+      "1 folha de louro"
+    ],
+    preparation: [
+      "Quando faltar mais ou menos 5 minutos para ficar no ponto de escorrer o macarrão, comece o preparo da receita.",
+      "Na frigideira quente coloque a manteiga, o azeite, a folha de louro, e o alho granulado.",
+      "Nesta hora um pouco de agilidade, pois o macarrão escorrido vai para a frigideira, sendo mexido e dosado com sal a gosto, as ervas, o gengibre em pó a gosto também.",
+      "O dente de alho, serve para você untar os pratos onde serão servidos o macarrão.",
+      "Coloque as porções nos pratos já com o cheiro do alho, e enfeite com algumas ervas."
+    ],
+    information:
+      "Não lave o macarrão nem passe óleo ou gordura nele depois de escorrê-lo. Coloque direto na frigideira."
   },
   {
     image:

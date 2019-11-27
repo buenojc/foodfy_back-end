@@ -14,7 +14,9 @@ server.set("view engine", "njk");
 server.use(express.static("../front-end/public"));
 
 nunjucks.configure("../front-end/views", {
-  express: server
+  express: server,
+  autoescape: false,
+  noCache: true
 });
 
 // ROUTES
@@ -29,4 +31,14 @@ server.get("/sobre", function(req, res) {
 
 server.get("/receitas", function(req, res) {
   return res.render("receitas", { recipes });
+});
+
+server.get("/receitas/:index", function(req, res) {
+  const recipeIndex = req.params.index;
+  const recipe = recipes[recipeIndex];
+
+  if (!recipe) {
+    return res.send("Receita não encontrada");
+  }
+  return res.render("receita", { recipe });
 });
